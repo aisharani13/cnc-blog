@@ -13,10 +13,7 @@ a {
 a:hover{
   color: #ff9600;
 }
-.container {
-    padding-left: 0;
-    padding-right: 0;
-}
+
 
 .phno {
     color: #333;
@@ -75,7 +72,18 @@ a:hover{
     background-position: 50%;
     background-size: cover;
 }
-
+/* --------header---------- */
+header{
+    height: 90px;
+    width: 100%;
+    padding: 5px 0px;
+}
+header .img-fluid{
+    width: 100%;
+    height:80px;
+}
+/* --------header---------- */
+/* --------banner---------- */
 .area-bg__inner {
     position: relative;
     z-index: 100;
@@ -97,7 +105,8 @@ a:hover{
     position: relative;
     min-height: 1px;
 }
-
+/* ----------banner----------- */
+/* ----------main content----------- */
 .posts-group {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -131,14 +140,6 @@ a:hover{
     color: #197b9f;
     z-index: 2;
 }
-
-
-
-
-
-
-
-
 .cat_status {
     font-size: 20px;
     line-height: 1.3em;
@@ -173,7 +174,6 @@ a:hover{
     line-height: 20px;
 }
 
-
 .b-post-2 .entry-title a {
     color: #333333;
 }
@@ -193,9 +193,6 @@ a:hover{
     float: right;
     margin: 0 6px;
 }
-
-
-
 
 .bcm-authr {
     background: #fff;
@@ -232,7 +229,10 @@ color:  #d2b829;
     color: #fff;
 
 }
-.footer {
+/* --------footer---------- */
+footer {
     color: #ccc;
     background-color: #1A1A1A;
 }
+/* --------footer---------- */
+
