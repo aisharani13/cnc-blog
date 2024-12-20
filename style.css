@@ -196,9 +196,19 @@ header .img-fluid{
 
 .bcm-authr {
     background: #fff;
-    padding: 20px;
 }
 
+.bcm-authr ul{
+    padding: 0;
+}
+.bcm-authr ul li .widget{
+    font-size: 15px;
+    padding: 7px 5px;
+}
+.bcm-authr ul li .widget .svg-inline--fa{
+    font-size: 9px !important;
+    margin-right: 5px;
+}
 .leater {
     font-size: 15px;
     text-transform: capitalize;
@@ -212,6 +222,7 @@ header .img-fluid{
 display: inline-block;
 display: block;
 }
+
 .widget {
     display: block;
     color: #666;
