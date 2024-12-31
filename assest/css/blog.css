@@ -16,55 +16,32 @@ a:hover {
     color: #ff9600;
 }
 
-
-.phno {
-    color: #333;
-    text-align: left;
-    display: block !important;
-    font-size: 14px;
-    font-weight: 600;
-    margin-left: 10px;
+/* topheader */
+.topheader {
+    height: 90px;
+    width: 100%;
+    padding: 0px 0px;
 }
 
-.top-bar {
-    display: block !important;
+.topheader .img-fluid {
+    height: 80px;
 }
-
-.padding-left-cal {
-    padding-left: 0;
-    padding-right: 0;
+.topheader .social-links{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 90px;
 }
-
-.header-topbarbox-2 {
-    padding: 10px 0 0;
-    text-align: right;
+.topheader .social-links li{
+    list-style: none;
+    margin-left: 5px;
 }
-
-.top-bar ul {
-    margin: 0;
-    padding: 0;
+.topheader .social-links li img{
+    width: 32px;
+    height: 32px;
 }
-
-.after-login {
-    text-align: right;
-}
-
-.after-login .social-links {
-    display: inline-block;
-}
-
-.top-bar li {
-    display: inline-block;
-}
-
-.social-links li a {
-    margin-left: 3px;
-}
-
-.container .navbar-brand {
-    margin-left: -15px;
-}
-
+/* topheader */
+/* banner */
 
 .section-title-page {
     position: relative;
@@ -74,19 +51,7 @@ a:hover {
     background-position: 50%;
     background-size: cover;
 }
-
-/* --------header---------- */
-header {
-    height: 90px;
-    width: 100%;
-    padding: 5px 0px;
-}
-
-header .img-fluid {
-    height: 80px;
-}
-
-/* --------header---------- */
+/* banner */
 /* --------banner---------- */
 .area-bg__inner {
     position: relative;
